@@ -1,16 +1,28 @@
-## Hi there 👋
+```c
+typedef struct {
+    const char *github;
+    const char *discord;
+    const char *languages[];
+    const char *interests[];
+    const char *status;
+} Uriel;
 
-<!--
-**kphw/kphw** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Uriel uriel = {
+    .github = "kphw",
+    .discord = "fakeconfess",
 
-Here are some ideas to get you started:
+    .languages = {
+        "C",
+        "Javascript",
+        "Python",
+    },
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+    .interests = {
+        "Discord Bots",
+        "Automation",
+        "Discord Selfbots",
+    },
+
+    .status = "Always thinking of something new."
+};
+```
