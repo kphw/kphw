@@ -5,9 +5,9 @@ typedef struct {
     const char *languages[];
     const char *interests[];
     const char *status;
-} Uriel;
+} confess;
 
-Uriel uriel = {
+Confess confess = {
     .github = "kphw",
     .discord = "fakeconfess",
 
